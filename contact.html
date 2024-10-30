@@ -1,5 +1,7 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Sep 27 2024 21:52:18 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html>
+<!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Fri Sep 27 2024 21:52:18 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="66f40ae5bd787afcfa7f71fc" data-wf-site="66f40ae5bd787afcfa7f71a2">
+
 <head>
   <meta charset="utf-8">
   <title>Agoncy - Webflow HTML website template</title>
@@ -10,64 +12,50 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/hello-bleu.webflow.css" rel="stylesheet" type="text/css">
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <script
+    type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
 </head>
+
 <body>
-  <div class="navbar-background-white">
-    <div id="Top" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+  <nav id="Top" class="navbar-background-blue">
+    <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease"
+      role="banner" class="navbar w-nav">
       <div class="navigation-container">
         <div class="navbar-wrapper">
-          <a href="old-home.html" class="brand w-nav-brand"><img src="images/logo-7.png" loading="lazy" alt="Site Logo" class="site-logo"></a>
-          <nav role="navigation" class="nav-menu font-urbanist w-nav-menu">
+          <a href="index.html" class="brand w-nav-brand">
+            <img src="images/logo/Hello.png" loading="lazy" alt="Site logo" class="site-logo" style="height: 60px;">
+          </a>
+          <nav role="navigation" class="nav-menu font-urbanist nav-menu-blue-background w-nav-menu">
             <div class="main-nav">
-              <div data-hover="true" data-delay="200" class="nav-link-dropdown w-dropdown">
-                <div data-w-id="1929d63c-859f-7ba1-5823-7803bed43626" class="nav-link w-dropdown-toggle">
-                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                  <div>Home</div>
-                </div>
-                <nav class="dropdown-list w-dropdown-list">
-                  <a href="old-home.html" class="dropdown-link w-dropdown-link">Home</a>
-                  <a href="index.html" class="dropdown-link w-dropdown-link">Home 2</a>
-                  <a href="home-v3.html" class="dropdown-link w-dropdown-link">Home 3</a>
-                </nav>
-              </div>
-              <a href="portfolio.html" class="nav-link w-nav-link">Portfolio</a>
-              <div data-hover="true" data-delay="200" class="nav-link-dropdown w-dropdown">
-                <div class="nav-link w-dropdown-toggle">
-                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-                  <div>Pages</div>
-                </div>
-                <nav class="dropdown-list-nav w-dropdown-list">
-                  <a href="about-us.html" class="dropdown-link w-dropdown-link">About us</a>
-                  <a href="services.html" class="dropdown-link w-dropdown-link">Services</a>
-                  <a href="pricing-plan.html" class="dropdown-link w-dropdown-link">Pricing Plan</a>
-                  <a href="team.html" class="dropdown-link w-dropdown-link">Our Team</a>
-                  <a href="faq.html" class="dropdown-link w-dropdown-link">FAQ</a>
-                </nav>
-              </div>
-              <a href="blogs.html" class="nav-link w-nav-link">Blogs</a>
-              <a href="contact.html" aria-current="page" class="nav-link w-nav-link w--current">Contact</a>
+              <a href="index.html" class="nav-link color-white w-nav-link">Home</a>
+              <a href="#portfolio" class="nav-link color-white w-nav-link">Portfolio</a>
+              <a href="#service" class="nav-link color-white w-nav-link">Services</a>
+              <a href="#blogs" class="nav-link color-white w-nav-link">Portfolio</a>
+              <a href="contact.html" class="nav-link color-white w-nav-link">Contact</a>
             </div>
-            <div class="nav-second inside-menu">
-              <a href="#" class="nav-search color-light w-button"><span class="search-icon"></span></a>
-            </div>
+            <!-- <div class="nav-second inside-menu">
+              <a data-w-id="59be99ad-db2f-8c1e-6c1c-117102f42885" href="#" class="nav-search w-button"><span
+                  class="search-icon"></span></a>
+            </div> -->
           </nav>
-          <div class="menu-button w-nav-button">
+          <div class="menu-button background-transparent w-nav-button">
             <div class="bars w-icon-nav-menu"></div>
             <div class="fa-icon times"></div>
           </div>
-          <div data-w-id="1929d63c-859f-7ba1-5823-7803bed4364b" class="canvas-button">
-            <div class="canvas-btn-bar top-bar"></div>
-            <div class="canvas-btn-bar middle-bar"></div>
-            <div class="canvas-btn-bar bottom-bar"></div>
+          <div data-w-id="59be99ad-db2f-8c1e-6c1c-117102f4288e" class="canvas-button color-transparent"
+            style="display: none;">
+            <img src="images/menu-icon.svg" loading="lazy" alt="Menu Toggle Button">
           </div>
-          <div class="canvas-menu">
-            <div class="left-column">
-              <a href="old-home.html" class="canvas-logo w-inline-block"><img src="images/logo-7.png" loading="lazy" alt="Site Logo"></a>
+          <div style="display:none" class="canvas-menu">
+            <div
+              style="-webkit-transform:translate3d(-50vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-50vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-50vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-50vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+              class="left-column">
+              <a href="index.html" class="canvas-logo w-inline-block"><img src="images/logo-7.png" loading="lazy"
+                  alt="Canvas logo"></a>
               <div class="canvas-navigation">
-                <a href="old-home.html" class="canvas-nav-menu w-inline-block">
+                <a href="index.html" class="canvas-nav-menu w-inline-block">
                   <div>Home</div>
                   <div class="canvas-menu-divider"></div>
                 </a>
@@ -87,57 +75,65 @@
                   <div>Team</div>
                   <div class="canvas-menu-divider"></div>
                 </a>
-                <a href="contact.html" aria-current="page" class="canvas-nav-menu w-inline-block w--current">
+                <a href="contact.html" class="canvas-nav-menu w-inline-block">
                   <div>Contact</div>
                 </a>
               </div>
               <div class="canvas-column-footer">
-                <div>© Alrights reserved by <a href="http://webflow.com" class="copyright-link">Webflow</a>
+                <div>© Alrights reserved by <a href="#" class="copyright-link">Wealcoder</a>
                 </div>
               </div>
             </div>
-            <div class="right-column">
-              <div data-w-id="af686c08-f197-8b74-e74a-c1defdb01485" class="canvas-menu-close">
+            <div
+              style="-webkit-transform:translate3d(-100vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100vw, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+              class="right-column">
+              <div data-w-id="59be99ad-db2f-8c1e-6c1c-117102f428b4" class="canvas-menu-close">
                 <div>X</div>
               </div>
               <div class="canvas-menu-services">
                 <a href="services-details.html" class="canvas-services-item w-inline-block">
-                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy" alt="Background Shape"></div>
+                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy"
+                      alt="Background Shape"></div>
                   <div class="canvas-icon-box"></div>
                   <div class="canvas-services-text">
                     <div>SEO Optimization</div>
                   </div>
                 </a>
                 <a href="services-details.html" class="canvas-services-item w-inline-block">
-                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy" alt="Background Shape"></div>
+                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy"
+                      alt="Background Shape"></div>
                   <div class="canvas-icon-box"></div>
                   <div class="canvas-services-text">
                     <div>Email Marketing</div>
                   </div>
                 </a>
                 <a href="services-details.html" class="canvas-services-item w-inline-block">
-                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy" alt="Background Shape"></div>
+                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy"
+                      alt="Background Shape"></div>
                   <div class="canvas-icon-box"></div>
                   <div class="canvas-services-text">
                     <div>Content Marketing</div>
                   </div>
                 </a>
                 <a href="services-details.html" class="canvas-services-item w-inline-block">
-                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy" alt="Background Shape"></div>
+                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy"
+                      alt="Background Shape"></div>
                   <div class="canvas-icon-box"></div>
                   <div class="canvas-services-text">
                     <div>Social Marketing</div>
                   </div>
                 </a>
                 <a href="services-details.html" class="canvas-services-item w-inline-block">
-                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy" alt="Background Shape"></div>
+                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy"
+                      alt="Background Shape"></div>
                   <div class="canvas-icon-box"></div>
                   <div class="canvas-services-text">
                     <div>Web Design</div>
                   </div>
                 </a>
                 <a href="services-details.html" class="canvas-services-item w-inline-block">
-                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy" alt="Background Shape"></div>
+                  <div class="canvas-services-icon"><img src="images/Group-1000003087.svg" loading="lazy"
+                      alt="Background Shape"></div>
                   <div class="canvas-icon-box"></div>
                   <div class="canvas-services-text">
                     <div>Product Design</div>
@@ -166,7 +162,8 @@
                     <a href="#" class="phone-number w-inline-block">
                       <div>+(02)-094-980-548</div>
                     </a>
-                    <a href="mailto:example@mail.com?subject=You&#x27;ve%20got%20a%20mail" class="email-address w-inline-block">
+                    <a href="mailto:example@mail.com?subject=You&#x27;ve%20got%20a%20mail"
+                      class="email-address w-inline-block">
                       <div>info@example.com</div>
                     </a>
                   </div>
@@ -174,10 +171,12 @@
               </div>
             </div>
           </div>
-          <div class="search-bar-wrapper">
+          <div style="display:none;opacity:0" class="search-bar-wrapper">
             <div class="search-bar-content">
-              <form action="/search" class="search w-form"><input class="search-input w-input" maxlength="256" name="query" placeholder="Search…" type="search" id="search-2" required=""><input type="submit" class="search-button w-button" value="Search"></form>
-              <a data-w-id="2086b4c8-a623-4040-f762-abed847be4f5" href="#" class="search-bar-close w-inline-block">
+              <form action="/search" class="search w-form"><input class="search-input w-input" maxlength="256"
+                  name="query" placeholder="Search…" type="search" id="search" required=""><input type="submit"
+                  class="search-button w-button" value="Search"></form>
+              <a href="#" class="search-bar-close w-inline-block">
                 <div>X</div>
               </a>
             </div>
@@ -185,36 +184,45 @@
         </div>
       </div>
     </div>
-  </div>
+  </nav>
   <section class="contact-main">
     <div class="contact-main-container">
       <h1 class="contact-main-heading">Contact Us</h1>
       <div class="contact-form-container">
         <div class="w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form" data-wf-page-id="66f40ae5bd787afcfa7f71fc" data-wf-element-id="8db5aab2-24a3-1070-132f-79b5c95b528a">
+          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form"
+            data-wf-page-id="66f40ae5bd787afcfa7f71fc" data-wf-element-id="8db5aab2-24a3-1070-132f-79b5c95b528a">
             <div class="contact-form-control">
               <div class="contact-form-bullet">
                 <div class="form-bullet-number">01.</div>
               </div>
-              <div class="form-control-wrapper"><label for="name" class="contact-form-label">What&#x27;s your name?</label><input class="contact-form-input w-input" maxlength="256" name="name" data-name="Name" placeholder="Your name" type="text" id="name"></div>
+              <div class="form-control-wrapper"><label for="name" class="contact-form-label">What&#x27;s your
+                  name?</label><input class="contact-form-input w-input" maxlength="256" name="name" data-name="Name"
+                  placeholder="Your name" type="text" id="name"></div>
             </div>
             <div class="contact-form-control">
               <div class="contact-form-bullet">
                 <div class="form-bullet-number">02.</div>
               </div>
-              <div class="form-control-wrapper"><label for="Email" class="contact-form-label">What&#x27;s your email?</label><input class="contact-form-input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Your email" type="email" id="Email"></div>
+              <div class="form-control-wrapper"><label for="Email" class="contact-form-label">What&#x27;s your
+                  email?</label><input class="contact-form-input w-input" maxlength="256" name="Email" data-name="Email"
+                  placeholder="Your email" type="email" id="Email"></div>
             </div>
             <div class="contact-form-control">
               <div class="contact-form-bullet">
                 <div class="form-bullet-number">03.</div>
               </div>
-              <div class="form-control-wrapper"><label for="Number" class="contact-form-label">What&#x27;s your phone number?</label><input class="contact-form-input w-input" maxlength="256" name="Number" data-name="Number" placeholder="Your phone number" type="number" id="Number"></div>
+              <div class="form-control-wrapper"><label for="Number" class="contact-form-label">What&#x27;s your phone
+                  number?</label><input class="contact-form-input w-input" maxlength="256" name="Number"
+                  data-name="Number" placeholder="Your phone number" type="number" id="Number"></div>
             </div>
             <div class="contact-form-control">
               <div class="contact-form-bullet">
                 <div class="form-bullet-number">04.</div>
               </div>
-              <div class="form-control-wrapper"><label for="field" class="contact-form-label">Your message</label><textarea placeholder="Hi John, could you assist me with..." maxlength="5000" id="field" name="field" data-name="Field" class="contact-form-input w-input"></textarea></div>
+              <div class="form-control-wrapper"><label for="field" class="contact-form-label">Your
+                  message</label><textarea placeholder="Hi John, could you assist me with..." maxlength="5000"
+                  id="field" name="field" data-name="Field" class="contact-form-input w-input"></textarea></div>
             </div><input type="submit" data-wait="Please wait..." class="submit-button w-button" value="Send Message">
           </form>
           <div class="w-form-done">
@@ -226,7 +234,7 @@
         </div>
       </div>
       <div class="contact-physical-wrapper">
-        <div class="contact-physical-item">
+        <!-- <div class="contact-physical-item">
           <div class="physical-icon-container">
             <div class="physical-icon-bg"></div>
             <div class="pysical-icon-fa"></div>
@@ -234,14 +242,14 @@
           <div class="physical-text-container">
             <div class="physical-text">Manuel Garcia Conde 4 – 1st <br>loor41003 Sydney. Australia</div>
           </div>
-        </div>
+        </div> -->
         <div class="contact-physical-item">
           <div class="physical-icon-container">
             <div class="physical-icon-bg icon-bg-alt-y"></div>
             <div class="pysical-icon-fa"></div>
           </div>
-          <a href="mailto:hello@example.com" class="physical-text-container w-inline-block">
-            <div class="physical-text text-underlilne">hello@example.com</div>
+          <a href="mailto:contact@hellobleu.com" class="physical-text-container w-inline-block">
+            <div class="physical-text text-underlilne">contact@hellobleu.com</div>
           </a>
         </div>
         <div class="contact-physical-item">
@@ -249,8 +257,11 @@
             <div class="physical-icon-bg icon-bg-alt-b"></div>
             <div class="pysical-icon-fa"></div>
           </div>
-          <a href="tel:+2555111000" class="physical-text-container w-inline-block">
-            <div class="physical-text">+(2) 555 - 111 - 000</div>
+          <a href="tel:+923000365539" class="physical-text-container w-inline-block">
+            <div class="physical-text">+923000365539</div>
+          </a>
+          <a href="tel:+17572637468" class="physical-text-container w-inline-block">
+            <div class="physical-text">+17572637468</div>
           </a>
         </div>
       </div>
@@ -273,9 +284,12 @@
       <div class="footer-row footer-row-border">
         <div class="footer-col footer-col-first-child">
           <div class="logo-wrapper">
-            <a href="old-home.html" class="footer-logo-link w-inline-block"><img src="images/logo_2.svg" loading="lazy" alt="Footer Logo" class="footer-logo"></a>
+            <a href="index.html" class="footer-logo-link w-inline-block">
+              <img src="images/logo/logo.png" loading="lazy" alt="Footer Logo" class="footer-logo">
+            </a>
             <div class="copyright-text-big">
-              <div class="cpyright-text">Copyright © 2023 <a href="http://webflow.com" target="_blank" class="footer-link">Webflow</a>.</div>
+              <div class="cpyright-text">Copyright © 2024 <a href="http://webflow.com" target="_blank"
+                  class="footer-link">Webflow</a>.</div>
             </div>
           </div>
         </div>
@@ -296,7 +310,7 @@
             </div>
           </div>
         </div>
-        <div class="footer-col footer-col-border">
+        <!-- <div class="footer-col footer-col-border">
           <div class="footer-contact">
             <h5 class="footer-col-heading">Useful Links</h5>
             <div class="footer-link-wrapper">
@@ -312,44 +326,46 @@
               <a href="faq.html" class="footer-link">FAQ</a>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="footer-col footer-col-last-child">
           <div class="footer-contact">
             <h5 class="footer-col-heading">Contact us</h5>
             <div class="footer-link-wrapper">
-              <a href="http://hello@yourmail.com" target="_blank" class="footer-link">hello@yourmail.com</a>
+              <a href="mailto:contact@hellobleu.com" target="_blank" class="footer-link">contact@hellobleu.com</a>
             </div>
             <div class="footer-link-wrapper">
               <a href="http://yourdomain.com" target="_blank" class="footer-link">www.yourdomain.com</a>
             </div>
-            <div class="footer-link-wrapper">
+            <!-- <div class="footer-link-wrapper">
               <a href="tel:(00)1234568899" class="footer-link">(00) 123 456 8899</a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
       <div class="footer-row-bottom">
         <div class="copyright-text-mobile">
-          <div class="cpyright-text">Copyright © 2023 <a href="http://webflow.com" target="_blank" class="footer-link">Webflow</a>.</div>
+          <div class="cpyright-text">Copyright © 2024 <a href="#" target="_blank" class="footer-link">Webflow</a>.</div>
         </div>
         <div class="footer-social-links">
-          <a data-w-id="9fe3a232-2a38-a1c9-a212-2dcc1fbbc460" href="http://twiiter.com/webflow" target="_blank" class="footer-social-item w-inline-block">
+          <a data-w-id="9fe3a232-2a38-a1c9-a212-2dcc1fbbc460" href="#" target="_blank"
+            class="footer-social-item w-inline-block">
             <div class="footer-social-label">Twitter</div>
             <div class="footer-social-icon"></div>
           </a>
-          <a href="http://linkedin.com/webflow" target="_blank" class="footer-social-item w-inline-block">
+          <a href="https://www.linkedin.com/company/hello-bleu/" target="_blank"
+            class="footer-social-item w-inline-block">
             <div class="footer-social-label">Linkedin</div>
             <div class="footer-social-icon"></div>
           </a>
-          <a href="http://dribble.com/webflow" target="_blank" class="footer-social-item w-inline-block">
+          <a href="#" target="_blank" class="footer-social-item w-inline-block">
             <div class="footer-social-label">Dribbble</div>
             <div class="footer-social-icon"></div>
           </a>
-          <a href="http://behance.com/webflow" target="_blank" class="footer-social-item w-inline-block">
+          <a href="#" target="_blank" class="footer-social-item w-inline-block">
             <div class="footer-social-label">Behance</div>
             <div class="footer-social-icon"></div>
           </a>
-          <a href="http://instagram.com/webflow" target="_blank" class="footer-social-item w-inline-block">
+          <a href="https://www.instagram.com/hello.bleu_/" target="_blank" class="footer-social-item w-inline-block">
             <div class="footer-social-label">Instagram</div>
             <div class="footer-social-icon"></div>
           </a>
@@ -360,7 +376,10 @@
   <a href="#Top" class="back-to-top w-inline-block">
     <div class="top-icon"></div>
   </a>
-  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66f40ae5bd787afcfa7f71a2" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66f40ae5bd787afcfa7f71a2"
+    type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
 </body>
+
 </html>
