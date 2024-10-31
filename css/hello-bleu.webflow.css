@@ -2744,7 +2744,7 @@ blockquote {
 .review-card {
   z-index: 10;
   background-color: #ffefd7;
-  border-radius: 40px;
+  border-radius: 20px;
   flex: 0 auto;
   width: 46vw;
   position: sticky;
