@@ -7412,7 +7412,7 @@ blockquote {
 
 .back-to-top {
   z-index: 9999;
-  background-color: var(--tomato);
+  background-color: var(--color-blue);
   color: var(--white);
   border-radius: 50%;
   justify-content: center;
