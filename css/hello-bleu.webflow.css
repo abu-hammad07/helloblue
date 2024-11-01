@@ -2764,7 +2764,7 @@ blockquote {
 .review-heading-text {
   color: var(--white);
   padding-top: 50px;
-  font-size: 45px;
+  font-size: 100px;
 }
 
 .card-indicator {
@@ -7845,7 +7845,7 @@ blockquote {
 
   .review-heading-text {
     padding-top: 65px;
-    font-size: 50px;
+    font-size: 100px;
   }
 
   .our-blogs {
@@ -8882,7 +8882,7 @@ blockquote {
 
   .review-heading-text {
     padding-top: 70px;
-    font-size: 60px;
+    font-size: 100px;
   }
 
   .our-blogs {
